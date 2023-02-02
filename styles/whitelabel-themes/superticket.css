@@ -1,0 +1,24 @@
+/* DRAWER // MENU */
+.layout-wrapper .layout-vertical-nav .MuiDrawer-paper {
+    background-color: #574191;
+}
+.layout-wrapper .layout-vertical-nav .MuiDrawer-paper svg{
+    color: #00A7E5;
+}
+.layout-wrapper .layout-vertical-nav .MuiDrawer-paper .MuiTypography-root{
+    color: white !important;
+    font-size: 0.75rem;
+}
+.layout-wrapper .layout-vertical-nav .MuiDrawer-paper .MuiButtonBase-root:hover{
+    background-color: white;
+}
+.layout-wrapper .layout-vertical-nav .MuiDrawer-paper .MuiButtonBase-root.active {
+    background-color: white;
+    color: #574191 !important;
+}
+.layout-wrapper .layout-vertical-nav .MuiDrawer-paper .MuiButtonBase-root:hover .MuiTypography-root, .layout-wrapper .layout-vertical-nav .MuiDrawer-paper .MuiButtonBase-root.active .MuiTypography-root{
+    color: #574191 !important;
+}
+.layout-wrapper .layout-vertical-nav .MuiDrawer-paper .MuiButtonBase-root:hover svg{
+    color: #00A7E5;
+}
